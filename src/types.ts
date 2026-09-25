@@ -1,0 +1,2 @@
+export type Lead={rowNumber:number;companyName:string;website:string;contactName:string;email:string;industry:string;websiteIssue:string;notes:string;status:string;optedOut:string;lastChecked:string;lastEmailed:string};
+export type AuditResult={url:string;finalUrl?:string;httpStatus?:number;title?:string;loadMs?:number;issues:string[];summary:string};
