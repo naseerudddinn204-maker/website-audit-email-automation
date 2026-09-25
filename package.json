@@ -1,0 +1,9 @@
+{
+  "name":"website-audit-email-automation",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "scripts":{"audit":"tsx src/index.ts --once","start":"tsx src/index.ts","check":"tsc --noEmit"},
+  "dependencies":{"dotenv":"^16.4.7","googleapis":"^144.0.0","nodemailer":"^7.0.6","openai":"^5.12.2","playwright":"^1.55.0"},
+  "devDependencies":{"@types/node":"^22.15.0","@types/nodemailer":"^6.4.16","tsx":"^4.19.4","typescript":"^5.8.3"}
+}
